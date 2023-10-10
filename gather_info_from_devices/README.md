@@ -63,6 +63,10 @@ You'll then activate the virtual environment with:
 
 `source ./venv/bin/activate`
 
+Install the python requirement with:
+
+`pip3 install -r ./requirements.txt`
+
 Be sure to install the most current version of the Dell Enterprise SONiC Ansible Collection from Ansible Galaxy with:
 
 `ansible-galaxy collection install dellemc.enterprise_sonic`
@@ -86,3 +90,6 @@ Note that you can easily make JSON files output by the gather facts playbook mor
 
 `cat ./output/spine1_output.json | jq '.' > ./output/modified_spine1_output.json`
 
+Of course this can be expanded to modify all output files with something like:
+
+`for i in $(ls ./output); do cat ./output/$i | jq '.' > ./output/modified_$i; done`
