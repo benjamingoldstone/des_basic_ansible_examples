@@ -1,0 +1,12 @@
+spine1 ansible_host=192.168.1.121
+spine2 ansible_host=192.168.1.123
+leaf1 ansible_host=192.168.1.124
+leaf2 ansible_host=192.168.1.125
+
+[spines]
+spine1
+spine2
+
+[leaves]
+leaf1
+leaf2

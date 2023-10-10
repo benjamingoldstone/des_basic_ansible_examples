@@ -1,0 +1,1290 @@
+{
+  "ansible_facts": {
+    "ansible_network_resources": {
+      "l3_interfaces": [
+        {
+          "name": "Ethernet0",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet1",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet2",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet3",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet4",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet5",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet6",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet7",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet8",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet9",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet10",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet11",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet12",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet13",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet14",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet15",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet16",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet17",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet18",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet19",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet20",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet21",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet22",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet23",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet24",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet25",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet26",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet27",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet28",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet29",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet30",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet31",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet32",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet33",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet34",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet35",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet36",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet37",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet38",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet39",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet40",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet41",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet42",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet43",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet44",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet45",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet46",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet47",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet48",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet52",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet56",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet60",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet64",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet68",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet72",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Ethernet76",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "enabled": true,
+            "addresses": null
+          }
+        },
+        {
+          "name": "Management0",
+          "ipv4": {
+            "addresses": null,
+            "anycast_addresses": null
+          },
+          "ipv6": {
+            "addresses": null,
+            "enabled": null
+          }
+        }
+      ],
+      "lldp_global": {
+        "tlv_select": {
+          "management_address": true,
+          "system_capabilities": true
+        },
+        "enable": true
+      },
+      "system": {
+        "hostname": "leaf1",
+        "anycast_address": null,
+        "interface_naming": null
+      },
+      "port_group": [
+        {
+          "id": "1",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "2",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "3",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "4",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "5",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "6",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "7",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "8",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "9",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "10",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "11",
+          "speed": "SPEED_25GB"
+        },
+        {
+          "id": "12",
+          "speed": "SPEED_25GB"
+        }
+      ],
+      "interfaces": [
+        {
+          "name": "Ethernet0",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet1",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet2",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet3",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet4",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet5",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet6",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet7",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet8",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet9",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet10",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet11",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet12",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet13",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet14",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet15",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet16",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet17",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet18",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet19",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet20",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet21",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet22",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet23",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet24",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet25",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet26",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet27",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet28",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet29",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet30",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet31",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet32",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet33",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet34",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet35",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet36",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet37",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet38",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet39",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet40",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet41",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet42",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet43",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet44",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet45",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet46",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet47",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_25GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet48",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet52",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet56",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet60",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet64",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet68",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet72",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Ethernet76",
+          "enabled": true,
+          "description": "",
+          "mtu": 9100,
+          "speed": "SPEED_100GB",
+          "auto_negotiate": false,
+          "fec": "FEC_DISABLED",
+          "advertised_speed": null
+        },
+        {
+          "name": "Management0",
+          "enabled": true,
+          "description": "Management0",
+          "mtu": 1500,
+          "speed": null,
+          "auto_negotiate": null,
+          "advertised_speed": null,
+          "fec": null
+        }
+      ]
+    },
+    "ansible_net_gather_network_resources": [
+      "l3_interfaces",
+      "lldp_global",
+      "system",
+      "vlans",
+      "bgp_neighbors",
+      "mclag",
+      "ntp",
+      "vxlans",
+      "lag_interfaces",
+      "vlan_mapping",
+      "port_group",
+      "interfaces",
+      "vrfs"
+    ],
+    "ansible_net_gather_subset": []
+  },
+  "warnings": [
+    "default value for `gather_subset` will be changed to `min` from `!config` v2.11 onwards"
+  ],
+  "failed": false,
+  "changed": false
+}

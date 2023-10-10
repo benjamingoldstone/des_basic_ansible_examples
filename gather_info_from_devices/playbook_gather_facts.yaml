@@ -1,0 +1,116 @@
+---
+- name: Gather facts spine1
+  hosts: spine1
+  gather_facts: true
+  connection: httpapi
+  collections:
+    - dellemc.enterprise_sonic
+
+  tasks:
+    - name: Gather facts for target
+      dellemc.enterprise_sonic.sonic_facts:
+        gather_subset: "{{network_subset_to_gather_spines}}"
+        gather_network_resources: "{{network_resources_to_gather_spines}}"
+      register: spine1_output
+
+    - name: Create local file for output
+      ansible.builtin.file:
+        path: './output/spine1_output.json'
+        owner: "{{local_username}}"
+        group: wheel
+        mode: '0644'
+        state: touch
+      delegate_to: localhost
+
+    - name: Render output to file
+      ansible.builtin.copy:
+        content: "{{spine1_output}}"
+        dest: './output/spine1_output.json'
+      delegate_to: localhost
+
+- name: Gather facts spine2
+  hosts: spine2
+  gather_facts: true
+  connection: httpapi
+  collections:
+    - dellemc.enterprise_sonic
+
+  tasks:
+    - name: Gather facts for target
+      dellemc.enterprise_sonic.sonic_facts:
+        gather_subset: "{{network_subset_to_gather_spines}}"
+        gather_network_resources: "{{network_resources_to_gather_spines}}"
+      register: spine2_output
+
+    - name: Create local file for output
+      ansible.builtin.file:
+        path: './output/spine2_output.json'
+        owner: "{{local_username}}"
+        group: wheel
+        mode: '0644'
+        state: touch
+      delegate_to: localhost
+
+    - name: Render output to file
+      ansible.builtin.copy:
+        content: "{{spine2_output}}"
+        dest: './output/spine2_output.json'
+      delegate_to: localhost
+
+- name: Gather facts leaf1
+  hosts: leaf1
+  gather_facts: true
+  connection: httpapi
+  collections:
+    - dellemc.enterprise_sonic
+
+  tasks:
+    - name: Gather facts for target
+      dellemc.enterprise_sonic.sonic_facts:
+        gather_subset: "{{network_subset_to_gather_leaves}}"
+        gather_network_resources: "{{network_resources_to_gather_leaves}}"
+      register: leaf1_output
+
+    - name: Create local file for output
+      ansible.builtin.file:
+        path: './output/leaf1_output.json'
+        owner: "{{local_username}}"
+        group: wheel
+        mode: '0644'
+        state: touch
+      delegate_to: localhost
+
+    - name: Render output to file
+      ansible.builtin.copy:
+        content: "{{leaf1_output}}"
+        dest: './output/leaf1_output.json'
+      delegate_to: localhost
+
+- name: Gather facts leaf2
+  hosts: leaf2
+  gather_facts: true
+  connection: httpapi
+  collections:
+    - dellemc.enterprise_sonic
+
+  tasks:
+    - name: Gather facts for target
+      dellemc.enterprise_sonic.sonic_facts:
+        gather_subset: "{{network_subset_to_gather_leaves}}"
+        gather_network_resources: "{{network_resources_to_gather_leaves}}"
+      register: leaf2_output
+
+    - name: Create local file for output
+      ansible.builtin.file:
+        path: './output/leaf2_output.json'
+        owner: "{{local_username}}"
+        group: wheel
+        mode: '0644'
+        state: touch
+      delegate_to: localhost
+
+    - name: Render output to file
+      ansible.builtin.copy:
+        content: "{{leaf2_output}}"
+        dest: './output/leaf2_output.json'
+      delegate_to: localhost

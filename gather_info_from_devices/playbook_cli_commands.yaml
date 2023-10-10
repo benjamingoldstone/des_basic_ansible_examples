@@ -1,0 +1,58 @@
+---
+    - name: Gather facts via CLI spine1
+      hosts: spine1
+      gather_facts: true
+      connection: network_cli
+      collections:
+        - dellemc.enterprise_sonic
+    
+      tasks:
+        - name: Run show hostname on remote device
+          dellemc.enterprise_sonic.sonic_command:
+            commands: show system | grep Hostname
+          register: spine1_hostname
+
+        - name: Render output to file
+          ansible.builtin.blockinfile:
+            create: true
+            block: "{{spine1_hostname.stdout}}"
+            marker: " "
+            path: "{{path_for_txt_file}}"
+          delegate_to: localhost
+
+        - name: Run show version on remote device
+          dellemc.enterprise_sonic.sonic_command:
+            commands: show version | grep "Software Version"
+          register: spine1_version
+
+        - name: Render output to file
+          ansible.builtin.blockinfile:
+            create: true
+            block: "{{spine1_version.stdout}}"
+            marker: " "
+            path: "{{path_for_txt_file}}"
+          delegate_to: localhost
+
+        - name: Run show spanning tree on remote device
+          dellemc.enterprise_sonic.sonic_command:
+            commands: show spanning-tree | grep Mode
+          register: spine1_spanning_tree
+
+        - name: Render output to file
+          ansible.builtin.blockinfile:
+            block: "{{spine1_spanning_tree.stdout}}"
+            marker: " "
+            path: "{{path_for_txt_file}}"
+          delegate_to: localhost
+
+        - name: Run show lldp neighbor on remote device
+          dellemc.enterprise_sonic.sonic_command:
+            commands: show lldp neighbor | no-more
+          register: spine1_lldp_nei
+
+        - name: Render output to file
+          ansible.builtin.blockinfile:
+            block: "{{spine1_lldp_nei.stdout}}"
+            marker: " "
+            path: "{{path_for_txt_file}}"
+          delegate_to: localhost

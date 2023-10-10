@@ -1,0 +1,63 @@
+ 
+['Hostname            :spine1']
+ 
+['Software Version  : 4.1.1-Enterprise_Base']
+ 
+['Spanning-tree Mode: RPVST']
+ 
+['-----------------------------------------------------------
+LLDP Neighbors      
+-----------------------------------------------------------
+Interface:   Ethernet0,via: LLDP
+  Chassis:
+    ChassisID:    0c:4e:01:6e:00:00
+    SysName:      leaf1
+    SysDescr:     SONiC Software Version: SONiC.4.1.1-Enterprise_Base - HwSku: DellEMC-S5248f-P-25G-DPB - Distribution: Debian 10.13 - Kernel: 5.10.0-8-2-amd64
+    TTL:          120
+    MgmtIP:       192.168.1.124
+    MgmtIP:       fe80::e4e:1ff:fe6e:0
+    Capability:   ROUTER, ON
+  Port
+    PortID:       Ethernet0
+    PortDescr:    Eth1/1
+  LLDP-MED
+    Device Type:  Network Connectivity Device
+    Capability:   Capabilities, yes
+    Capability:   Ext_mdi_power_pd, yes
+    Capability:   Inventory, yes
+    Capability:   Network_policy, yes
+    Inventory
+      Hardware Rev:  pc-i440fx-focal
+      Software Rev:  5.10.0-8-2-amd64
+      Firmware Rev:  1.13.0-1ubuntu1.1
+      Serial Number: 
+      Manufacturer:  QEMU
+      Model:         Standard PC (i440FX + PIIX, 1996
+-----------------------------------------------------------
+Interface:   Ethernet1,via: LLDP
+  Chassis:
+    ChassisID:    0c:ee:95:76:00:00
+    SysName:      leaf2
+    SysDescr:     SONiC Software Version: SONiC.4.1.1-Enterprise_Base - HwSku: DellEMC-S5248f-P-25G-DPB - Distribution: Debian 10.13 - Kernel: 5.10.0-8-2-amd64
+    TTL:          120
+    MgmtIP:       192.168.1.125
+    MgmtIP:       fe80::eee:95ff:fe76:0
+    Capability:   ROUTER, ON
+  Port
+    PortID:       Ethernet0
+    PortDescr:    Eth1/1
+  LLDP-MED
+    Device Type:  Network Connectivity Device
+    Capability:   Capabilities, yes
+    Capability:   Ext_mdi_power_pd, yes
+    Capability:   Inventory, yes
+    Capability:   Network_policy, yes
+    Inventory
+      Hardware Rev:  pc-i440fx-focal
+      Software Rev:  5.10.0-8-2-amd64
+      Firmware Rev:  1.13.0-1ubuntu1.1
+      Serial Number: 
+      Manufacturer:  QEMU
+      Model:         Standard PC (i440FX + PIIX, 1996
+-----------------------------------------------------------']
+ 
